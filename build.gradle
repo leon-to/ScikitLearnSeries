@@ -1,0 +1,5 @@
+defaultTasks 'run'
+
+task ('run', type: Exec){
+    commandLine 'python', 'Part2_SVM.py'
+}
